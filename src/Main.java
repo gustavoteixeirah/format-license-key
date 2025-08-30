@@ -1,11 +1,6 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
 
-
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         System.out.println(formatLicenseKey("5F3Z-2e-9-w", 4)); // 5F3Z-2E9W - OK
         System.out.println(formatLicenseKey("2-5g-3-J", 2));    // 2-5G-3J NOT OK
         System.out.println(formatLicenseKey("--a-a-a-a--", 2)); // AA-AA OK
